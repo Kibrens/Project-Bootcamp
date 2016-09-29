@@ -2,6 +2,9 @@ import java.sql.*;
 
 public class Main {
     public static void main(String [] args){
+    	
+    	//Data collection goes here
+    	
     	try {            
         	Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); 
             String connectionUrl = "jdbc:sqlserver://CABRA-PC\\SQLEXPRESS;" + 

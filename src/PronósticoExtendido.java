@@ -19,5 +19,5 @@ public class PronósticoExtendido {
     public String toString(){
         return "Pronóstico extendido: "+ListaPronósticoExtendido.toString();
     }
-	//select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="nome, ak")
+	//select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="CITY, STATE")
 }
